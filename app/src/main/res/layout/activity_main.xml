@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    android:foregroundTint="#000000"
     android:orientation="vertical">
 
     <ImageView
@@ -42,6 +41,7 @@
         android:layout_gravity="center"
         android:drawableStart="@drawable/icon_lock_login"
         android:gravity="center"
+        android:inputType="textPassword"
         android:hint="@string/pass_login" />
 
     <Button

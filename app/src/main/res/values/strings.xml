@@ -4,5 +4,6 @@
     <string name="pass_login">PASSWORD</string>
     <string name="btn_login">GO</string>
     <string name="login">LOGIN</string>
+    <string name="gym_home">HOME GYM</string>
 
 </resources>
