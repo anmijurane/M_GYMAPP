@@ -9,7 +9,7 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:layout_gravity="center|top"
-        android:src="@drawable/ic_android_black_24dp" />
+        android:src="@mipmap/logo" />
 
     <TextView
         android:layout_width="match_parent"
