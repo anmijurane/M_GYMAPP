@@ -9,5 +9,7 @@
     <string name="activity_meta">META</string>
     <string name="eating_habits">IMPROVE EATING HABITS</string>
     <string name="loseWeight">LOSE WEIGHT</string>
+    <string name="testWeight">IDEAL WEIGHT TEST</string>
+
 
 </resources>
