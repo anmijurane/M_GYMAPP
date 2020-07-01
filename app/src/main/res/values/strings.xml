@@ -16,5 +16,7 @@
     <string name="ButtocksName">BUTTOCKS</string>
     <string name="AbdomenName">ABDOMEN</string>
     <string name="LegsName">LEGS</string>
+    
+    <string name="Continue">CONTINUE</string>
 
 </resources>
