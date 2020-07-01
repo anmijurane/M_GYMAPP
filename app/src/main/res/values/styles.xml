@@ -18,5 +18,14 @@
         <item name="android:textSize">70dp</item>
     </style>
 
+    <style name="EditTextStyle" parent="AppTheme">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/accent</item>
+        <!--
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="30dp"-->
+    </style>
 
 </resources>

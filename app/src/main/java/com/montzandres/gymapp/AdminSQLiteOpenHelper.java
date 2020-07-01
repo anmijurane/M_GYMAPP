@@ -20,7 +20,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         this.db = db;
-        db.execSQL("create table User()");
+        db.execSQL("create table User(idUser varchar(50), name varchar(50), password varchar(50)) ");
     }
 
     @Override

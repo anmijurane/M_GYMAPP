@@ -19,8 +19,9 @@
 
     <string name="Continue">CONTINUE</string>
 
-    <string name="UserName">USER</string>
+    <string name="UserName">\@YOU_USER</string>
     <string name="nameUser">NAME</string>
+    <string name="PassWordConfirm">CONFIRM PASSWORD</string>
     <string name="PassWord">PASSWORD</string>
     <string name="RegisterUser">REGISTER</string>
 
