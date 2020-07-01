@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Routine30Days">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        style="@style/AppTheme.EditTextTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Routine30" />
+
+    <!-- Button's -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/ArmName"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/ButtocksName"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/AbdomenName"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/LegsName"
+        android:textSize="30sp" />
+</LinearLayout>

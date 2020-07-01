@@ -10,6 +10,11 @@
     <string name="eating_habits">IMPROVE EATING HABITS</string>
     <string name="loseWeight">LOSE WEIGHT</string>
     <string name="testWeight">IDEAL WEIGHT TEST</string>
+    <string name="Routine30">ROUTINE 30 DAYS</string>
 
+    <string name="ArmName">ARM</string>
+    <string name="ButtocksName">BUTTOCKS</string>
+    <string name="AbdomenName">ABDOMEN</string>
+    <string name="LegsName">LEGS</string>
 
 </resources>
