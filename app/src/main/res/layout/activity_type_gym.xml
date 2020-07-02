@@ -9,6 +9,7 @@
     tools:context=".TypeActivityGym">
 
     <EditText
+        android:id="@+id/etT_Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -16,6 +17,7 @@
         tools:text="@string/LegsName"/>
 
     <ImageView
+        android:id="@+id/imgv_TypeExercise"
         android:layout_marginTop="10dp"
         android:layout_width="300dp"
         android:layout_height="300dp"

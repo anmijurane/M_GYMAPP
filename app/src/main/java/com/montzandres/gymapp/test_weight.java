@@ -23,24 +23,21 @@ public class test_weight extends AppCompatActivity {
     }
 
     public void NextWindows(View v){
-        if (ValidET()){
-        startActivity(new Intent(getApplicationContext(), meta_activity.class));
+        if (true){
+        startActivity(new Intent(this, meta_activity.class));
         }else{
         Toast.makeText(this,"Fill all the fields", Toast.LENGTH_SHORT).show();
         }
     }
 
     public boolean ValidET(){
-        if(sex.getText().toString().equals("") |
+        return (sex.getText().toString().equals("") |
         weight.getText().toString().equals("") |
         age.getText().toString().equals("")    |
         height.getText().toString().equals("") |
         current.getText().toString().equals("")|
-        regular.getText().toString().equals("")){
-            return false;
-        }else{
-            return true;
-        }
+        regular.getText().toString().equals(""));
+
     }
 
 }
