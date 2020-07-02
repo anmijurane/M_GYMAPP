@@ -20,7 +20,7 @@
         android:inputType="text"
         style="@style/EditTextStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:hint="@string/UserName" />
 
     <EditText
@@ -28,7 +28,7 @@
         android:inputType="text"
         style="@style/EditTextStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:hint="@string/nameUser" />
 
     <EditText
@@ -36,7 +36,7 @@
         android:inputType="textPassword"
         style="@style/EditTextStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:hint="@string/PassWord" />
 
     <EditText
@@ -44,12 +44,12 @@
         android:inputType="textPassword"
         style="@style/EditTextStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:hint="@string/PassWordConfirm" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="230dp"/>
+        android:layout_height="150dp"/>
 
     <Button
         android:id="@+id/btnR_ActionRegister"

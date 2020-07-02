@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">gymAPP</string>
+    <string name="app_name">@string/gym_home</string>
     <string name="user_login">USER</string>
     <string name="pass_login">PASSWORD</string>
     <string name="btn_login">GO</string>

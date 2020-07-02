@@ -8,11 +8,6 @@
     android:theme="@style/AppTheme"
     tools:context=".test_weight">
 
-    <!--<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IDEAL"
-        android:textSize="50sp" /> -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,6 +21,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/etT_sex"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:hint="SEX"
@@ -33,6 +29,7 @@
             android:textSize="30dp" />
 
         <EditText
+            android:id="@+id/etT_Weight"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -47,6 +44,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/etT_age"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:hint="AGE"
@@ -54,6 +52,7 @@
             android:textSize="30sp" />
 
         <EditText
+            android:id="@+id/etT_Height"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -63,6 +62,7 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/etT_CuActivity"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -71,6 +71,7 @@
         android:textSize="25dp" />
 
     <EditText
+        android:id="@+id/etT_ReActivity"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -79,8 +80,10 @@
         android:textSize="25dp" />
 
     <Button
+        android:id="@+id/btnT_Next"
         style="@style/AppTheme.ButtonA"
         android:layout_width="200dp"
+        android:onClick="NextWindows"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="NEXT"
