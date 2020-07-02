@@ -19,9 +19,9 @@
     <ImageView
         android:id="@+id/imgv_TypeExercise"
         android:layout_marginTop="10dp"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/ic_android_black_24dp"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:src="@drawable/leg"
         android:background="@color/primary_light"/>
 
     <TextView
