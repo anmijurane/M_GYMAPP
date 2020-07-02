@@ -11,16 +11,16 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
     private SQLiteDatabase db;
     private int oldVersion;
     private int newVersion;
-
-    public AdminSQLiteOpenHelper(@Nullable Context context, @Nullable String name, @Nullable
-            SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+    private static final String DB_NAME = "gymhome.sqlite";
+    private static final int DB_VERSION = 1;
+    public AdminSQLiteOpenHelper(Context context) {
+        super(context, DB_NAME, null, DB_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         this.db = db;
-        db.execSQL("create table User(idUser varchar(50), name varchar(50), password varchar(50)) ");
+        db.execSQL("CREATE TABLE User(idUser varchar(50), name varchar(50), password varchar(50)) ");
     }
 
     @Override
